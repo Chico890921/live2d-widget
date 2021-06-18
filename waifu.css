@@ -68,10 +68,9 @@
 
 #waifu #live2d {
 	cursor: grab;
-	height: 200px;
+	height: 300px;
 	position: relative;
-	width: 200px;
-	left: 50px;
+	width: 300px;
 }
 
 #waifu #live2d:active {
