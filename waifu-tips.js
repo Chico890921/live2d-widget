@@ -78,7 +78,7 @@ function loadWidget(config) {
 			showMessage("你都複製了些什麼呀，轉載要記得加上出處哦！", 6000, 9);
 		});
 		window.addEventListener("visibilitychange", () => {
-			if (!document.hidden) showMessage("哇，你終於回来了～", 6000, 9);
+			if (!document.hidden) showMessage("哇，你終於回來了～", 6000, 9);
 		});
 	})();
 
