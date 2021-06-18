@@ -111,7 +111,7 @@ https://example.com/path/to/live2d-widget/
 > 感謝 BrowserStack 容許我們在真實的瀏覽器中測試此項目。
 > Thanks to [BrowserStack](https://www.browserstack.com/) for providing the infrastructure that allows us to test in real browsers!
 
-<a href="https://www.jsdelivr.com"><img height="80" src="https://raw.githubusercontent.com/jsdelivr/jsdelivr-media/master/default/svg/jsdelivr- logo-horizo​​ntal.svg"></a>
+<a href="https://www.jsdelivr.com"><img height="80" src="https://raw.githubusercontent.com/jsdelivr/jsdelivr-media/master/default/svg/jsdelivr-logo-horizontal.svg"></a>
 
 > 感謝 jsDelivr 提供的 CDN 服務。
 > Thanks jsDelivr for providing public CDN service.
