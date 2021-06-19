@@ -22,7 +22,6 @@ function loadWidget(config) {
 			<canvas id="live2d" width="800" height="800"></canvas>
 			<div id="waifu-tool">
 				<span class="fa fa-lg fa-comment"></span>
-				<span class="fa fa-lg fa-user-circle"></span>
 				<span class="fa fa-lg fa-info-circle"></span>
 				<span class="fa fa-lg fa-times"></span>
 			</div>
@@ -56,7 +55,6 @@ function loadWidget(config) {
 
 	(function registerEventListener() {
 		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
-		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
 		document.querySelector("#waifu-tool .fa-info-circle").addEventListener("click", () => {
 			open("https://github.com/chico890921/live2d-widget");
 		});
