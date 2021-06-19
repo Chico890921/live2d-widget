@@ -54,7 +54,6 @@ function loadWidget(config) {
 	}, 1000);
 
 	(function registerEventListener() {
-		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
 		document.querySelector("#waifu-tool .fa-paper-plane").addEventListener("click", () => {
 			if (window.Asteroids) {
 				if (!window.ASTEROIDSPLAYERS) window.ASTEROIDSPLAYERS = [];
@@ -64,13 +63,6 @@ function loadWidget(config) {
 				script.src = "https://cdn.jsdelivr.net/gh/stevenjoezhang/asteroids/asteroids.js";
 				document.head.appendChild(script);
 			}
-		});
-		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
-		document.querySelector("#waifu-tool .fa-street-view").addEventListener("click", loadRandModel);
-		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
-			showMessage("照好了嘛，是不是很可爱呢？", 6000, 9);
-			Live2D.captureName = "photo.png";
-			Live2D.captureFrame = true;
 		});
 		document.querySelector("#waifu-tool .fa-info-circle").addEventListener("click", () => {
 			open("https://github.com/chico890921/live2d-widget");
