@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/Chico890921/live2d-widget@0.9.12/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/Chico890921/live2d-widget@0.9.13/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -62,6 +62,10 @@ function myFunction(x) {
         temp = 1;
   }
 }
+var x = window.matchMedia("(max-width: 1024px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+
 // initWidget 第一个参数为 waifu-tips.json 的路径，第二个参数为 API 地址
 // API 后端可自行搭建，参考 https://github.com/fghrsh/live2d_api
 // 初始化看板娘会自动加载指定目录下的 waifu-tips.json
