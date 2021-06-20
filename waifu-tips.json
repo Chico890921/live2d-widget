@@ -36,7 +36,7 @@
 		"selector": ".menu-item-categories a",
 		"text": ["文章都分類好啦～", "點擊来查看文章分類哦。"]
 	}, {
-		"selector": ".menu-item menu-more dropbtn",
+		"selector": "a[href^='/posts/'",
 		"text": ["翻頁比較麻煩嗎，那就來看看文章歸檔吧。", "文章目錄都整理在這裡啦！"]
 	}, {
 		"selector": "a[href^='/friends/']",
@@ -45,7 +45,7 @@
 		"selector": "a[href^='/secreats/']",
 		"text": ["輸入密碼才可以進去哦"]
 	}, {
-		"selector": ".fas fa-search fa-fw",
+		"selector": ".menu-item search",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什麼東西呢，需要幫忙嗎？"]
 	}, {
 		"selector": ".menu-item a",
@@ -78,7 +78,7 @@
 		"selector": ".highlight .table-container, .gist",
 		"text": ["GitHub！我是新手！", "PHP 是最好的語言！"]
 	}, {
-		"selector": "a[href^='mailto']",
+		"selector": "a[href^='mailto:191147343satan@gmail.com']",
 		"text": ["郵件我會及時回復的！", "點擊就可以發送郵件啦～"]
 	}, {
 		"selector": "a[href^='/tags/']",
@@ -88,6 +88,9 @@
 		"text": ["要去看看 <span>{text}</span> 分類嗎？", "點它可以查看此分類下的所有文章喲！"]
 	}, {
 		"selector": ".single-title",
+		"text": ["要看看 <span>{text}</span> 這篇文章嗎？"]
+	}, {
+		"selector": ".archive-item-link",
 		"text": ["要看看 <span>{text}</span> 這篇文章嗎？"]
 	}, {
 		"selector": "a[rel='contents']",
@@ -145,7 +148,7 @@
 		"text": ["來看看上一篇文章吧。", "點它可以看上一篇文章哦！", "要翻到上一篇文章嗎？"]
 	}, {
 		"selector": ".relatedPost",
-		"text": ["要看看相關文章嗎?", "要看看 <span>{text}</span> 這篇文章嗎？"]
+		"text": ["這裡是相關的文章哦~", "要看看 <span>{text}</span> 這篇文章嗎？"]
 	}, {
 		"selector": ".extend.next",
 		"text": ["去下一頁看看吧。", "點它可以前進哦！", "要翻到下一頁嗎？"]
