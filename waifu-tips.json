@@ -24,7 +24,7 @@
 		"selector": "#waifu-tool .fa-times",
 		"text": ["到了要說再見的時候了嗎？", "嗚嗚 QAQ 後會有期……", "不要拋棄我呀……", "我們，還能再見面嗎……", "哼，你會後悔的！"]
 	}, {
-		"selector": "a[href^='/']",
+		"selector": ".header-title-pre",
 		"text": ["點擊前往首頁，想回到上一頁可以使用瀏覽器的後退功能哦。", "點它就可以回到首頁啦！", "回首頁看看吧。"]
 	}, {
 		"selector": ".menu-item-about a",
